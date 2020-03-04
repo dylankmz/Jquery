@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- IMPORT JQUERY FROM CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- IMPORT JQUERY FROM CDN -->
+
+		<style>
+			.found {
+				box-sizing: border-box;
+				border-top: none;
+				box-shadow: 1px 1px 3px gray;
+				width: 100%;
+				color: rgb(57, 202, 154);
+				font-weight: bold;
+			}
+			li {
+				transition: 1.5s ease opacity;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="js-list-one">
+			<li><h1>Edit next</h1></li>
+			<li>One</li>
+			<li>Two</li>
+			<li>Three</li>
+			<li class="js-selectme">Select Me</li>
+			<li>But highlight Me</li>
+			<li>Six</li>
+			<li>Seven</li>
+		</ul>
+		<ul class="js-list-two">
+			<li><h1>Find spans</h1></li>
+			<li>One</li>
+			<li><span>Two</span></li>
+			<li>Three</li>
+			<li>Four</li>
+			<li><span>Five</span></li>
+			<li>Six</li>
+			<li>Seven</li>
+		</ul>
+		<ul class="js-list-three">
+			<li><h1>Hide &AMP; show </h1></li>
+			<li>One</li>
+			<li>Two</li>
+			<li>Three</li>
+			<li>Four</li>
+			<li>Five</li>
+			<li>Six</li>
+			<li>Seven</li>
+		</ul>
+		<script src="traversing.js"></script>
+	</body>
+</html>

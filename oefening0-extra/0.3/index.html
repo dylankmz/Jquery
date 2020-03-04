@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+
+	<!-- IMPORT JQUERY FROM CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- IMPORT JQUERY FROM CDN -->
+	<style>
+		* {
+			font-family: sans-serif;
+		}
+
+		.new-block {
+			box-shadow: 1px 1px 4px #cbcbcb;
+			display: inline-block;
+			padding: .5em 1em;
+			margin: 1em;
+		}
+
+		input {
+			border: 1px solid black;
+			padding: .5em;
+		}
+
+		button {
+			margin: 1em;
+			background: #fff;
+			border: 1px solid black;
+			padding: .5em 1em;
+		}
+	</style>
+
+</head>
+
+
+
+<body>
+	<input type="text" class="js-title">
+	<button class="js-create">create-block</button>
+	<h1>Generated blocks:</h1>
+	<div class="js-result"></div>
+
+	<script src="fragment.js"></script>
+</body>
+
+</html>

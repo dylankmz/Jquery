@@ -1,0 +1,138 @@
+*{
+  font-family: sans-serif;
+}
+header{
+  margin: auto;
+  width: 1000px;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+  display: inline-block;
+  margin: 30px;
+}
+
+input,
+textarea {
+  background: none;
+  color: #585858;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 320px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input:focus ~ label, input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -14px;
+  font-size: 14px;
+  color: #2196F3;
+}
+input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 335px;
+}
+
+
+label {
+  color: #c6c6c6;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+}
+
+
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: #2196F3;
+  transition: 300ms ease all;
+  left: 0%;
+}
+
+
+.btn {
+  background: #fff;
+  cursor: pointer;
+  color: #959595;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.btn:hover {
+  color: #8b8b8b;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+.btn.btn-link {
+  background: #2196F3;
+  color: #d3eafd;
+}
+.btn.btn-link:hover {
+  background: #0d8aee;
+  color: #deeffd;
+}
+.btn.btn-submit {
+  background: #2196F3;
+  color: #bce0fb;
+}
+.btn.btn-submit:hover {
+  background: #0d8aee;
+  color: #deeffd;
+}
+
+.btn-reset{
+  background-color: red;
+  color: #ffdfdf;
+}
+.btn-reset:hover{
+  background-color: rgb(245, 0, 0);
+  color: #fdeeee;
+}
+ul{
+  margin: auto;
+  box-shadow: 1px 1px 3px rgba(88, 88, 88, 0.445);
+  border-radius: 3px;
+  width: 200px;
+  padding: 0;
+  text-align: center;
+}
+
+
+li{
+  list-style: none;
+  border-top: 1px solid gray;
+  width: 100px;
+  margin: auto;
+  padding: 15px;
+}
+
+li:first-child{
+  border-top: none;
+}
+

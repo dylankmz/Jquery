@@ -1,0 +1,123 @@
+*{
+    background-color:#ccff99;
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:sans-serif;
+}
+/*header style */ 
+#header{
+    max-width: 560px;
+    position: relative;
+    margin: 0 ;
+    text-align: center;
+    
+}
+#header img{
+    width: 600px;  
+}
+.top-center{
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%; /* Full width */
+    padding: 20px;
+}
+
+#header h1{
+    font-size: 48px;
+    color: #ff0000;
+}
+
+/*navigatie */
+#navigation ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navigation li {
+  float: left;
+    background-color: #333;
+}
+
+#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    background-color: #333;
+}
+
+#navigation li a:hover {
+  background-color: #111;
+}
+
+#navigation .active {
+  background-color: #4CAF50;
+}
+
+/* tekst box*/ 
+#tekstBox{
+    margin-bottom: 120px;
+    margin-top:10px;
+
+}
+#tekstBox p {
+    padding: 10px;
+}
+
+#tekstBox .melding {
+   color:#4CAF50;
+   font-weight: bold;
+}
+.plan{
+    float: right;
+    margin-top: -650px;
+}
+
+.openingsuren{
+    width: 270px;
+}
+/* table layout*/
+table{
+    margin-top:10px;
+    width: 600px;
+    border-collapse: collapse; 
+}
+td{
+    padding: 6px;
+}
+
+table img, .TableFoto{
+    width: 150px;
+}
+table th{
+    border-width:0.1m;  
+    border-bottom-style:solid;
+    border-bottom-color: #4CAF50;
+}
+
+/*footer*/
+.footer{
+    background-color: #333;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 560px;
+    padding: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-family:sans-serif;   
+    
+}
+
+.footer p, .footer h3 ,.footer a{
+    background-color: #333;    
+}

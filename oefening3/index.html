@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- IMPORT JQUERY FROM CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- IMPORT JQUERY FROM CDN -->
+		<style>
+			.active span {
+				transform: rotate(90deg);
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li class="js-toggle">
+					<a href="#"><span>&#9658;</span> Web Design</a>
+					<ul class="js-ddl ddl">
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">Javascript</a></li>
+						<li><a href="#">Jquery</a></li>
+					</ul>
+				</li>
+				<li class="js-toggle">
+					<a href="#"><span>&#9658;</span> Design</a>
+					<ul class="js-ddl ddl">
+						<li><a href="#">PhotoShop</a></li>
+						<li><a href="#">Illustrator</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<script src="toggle.js"></script>
+	</body>
+</html>

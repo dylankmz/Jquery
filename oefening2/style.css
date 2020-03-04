@@ -1,0 +1,37 @@
+*{
+  font-family: sans-serif;
+}
+
+body{
+  width: 1209px;
+  margin: auto;
+}
+ul{
+  display: inline-block;
+  box-shadow: 1px 1px 3px rgba(88, 88, 88, 0.445);
+  border-radius: 3px;
+  width: 300px;
+  padding: 0;
+  text-align: center;
+  margin: 50px;
+}
+
+
+li{
+  list-style: none;
+  border-top: 1px solid gray;
+  width: 200px;
+  margin: auto;
+  padding: 15px;
+}
+
+li:first-child{
+  border-top: none;
+}
+
+span.found{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}

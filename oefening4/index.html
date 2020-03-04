@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- IMPORT JQUERY FROM CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- IMPORT JQUERY FROM CDN -->
+
+		<style>
+			li.found {
+				box-sizing: border-box;
+				border-top: none;
+				box-shadow: 1px 1px 3px gray;
+				width: 100%;
+				color: rgb(57, 202, 154);
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="group">
+				<input class="js-search" type="text" required />
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Search</label>
+			</div>
+			<div class="group">
+				<input class="js-replace-text" type="text" required />
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Replace</label>
+			</div>
+			<button class="btn btn-submit js-replace" type="submit">Replace</button>
+			<button class="btn btn-reset js-reset" type="submit">Reset</button>
+		</header>
+
+		<ul class="js-list">
+			<li>Eggs</li>
+			<li>Milk</li>
+			<li>Sugar</li>
+			<li>Salt</li>
+			<li>Chicken</li>
+			<li>Butter</li>
+			<li>Bread</li>
+		</ul>
+		<script src="search.js"></script>
+	</body>
+</html>

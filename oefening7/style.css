@@ -1,0 +1,19 @@
+*{
+  font-family: sans-serif;
+}
+
+.card{
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  display: inline-block;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.card h1{
+  margin-top: 0;
+}
