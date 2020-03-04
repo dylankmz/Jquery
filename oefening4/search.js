@@ -20,10 +20,14 @@ $(".js-search").keyup(function() {
 // Click Replace
 $(".js-replace").on("click", function() {
   let word = $(".js-search").val();
-  let replace = $(".js-replace-text").val();
+  let rep = $(".js-replace-text").val();
   $(".js-list li").html();
   $(".js-list li:contains(" + word + ")").each(function(index) {
-    $(this).text(replace);
+    let listWord = $(this).text();
+    console.log(listWord);
+    let res = listWord.replace(word, rep);
+    console.log(res);
+    $(".js-list li:contains(" + listWord + ")").html(res);
   });
 });
 
