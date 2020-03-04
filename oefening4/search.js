@@ -27,7 +27,9 @@ $(".js-replace").on("click", function() {
     console.log(listWord);
     let res = listWord.replace(word, rep);
     console.log(res);
-    $(".js-list li:contains(" + listWord + ")").html(res);
+    $(this)
+      .text(res)
+      .removeClass("found");
   });
 });
 
@@ -41,3 +43,6 @@ function findAndReplace(string) {
 // *****************************//
 //            Reset             //
 // *****************************//
+$(".js-reset").on("click", function() {
+  $(".group input").val("");
+});
